@@ -55,17 +55,17 @@
 - GitHub
   - Branching strategy (feature --> main)
   - Team PR Process
-  - Get help for pulling and merging
+  - Get help for pulling and merging when necessary
 - CSS
   - Thoughtful layout
   - "Branding"
-- Supabase Auth and protected pages.
 - Data requirements:
   - Authentication (Sign in/up/out)
   - Authorization (RLS) on at least one table
   - One of the following:
     - At least three related tables. User profiles can count as one of the three
     - Your app is a sufficiently complex "game" that stores game state or results in supabase
+- Protected pages (redirect if user required)
 - Should have (mostly) all CRUD operations:
   - Create
   - Read one/Read all,
